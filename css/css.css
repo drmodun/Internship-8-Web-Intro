@@ -1,0 +1,68 @@
+@font-face {
+    font-family: open-sans;
+    src: url("open-sans.ttf");
+}
+
+body {
+    font-family: open-sans;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+
+
+
+a {
+    color: #37f;
+}
+
+a.titleLink {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a.titleLink:hover {
+    color: #37f;
+    transition: 0.1s;
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+header {
+    background: #ddd;
+    border-bottom: solid 2px #777;
+}
+
+.headerDiv {
+    max-width: 80ex;
+    padding: 2ex 10ex;
+    padding-bottom: 0;
+    margin-bottom: 2ex;
+}
+
+main,
+footer {
+    margin: 2ex 10ex;
+    max-width: 80ex;
+}
+
+
+.date {
+    padding-right: 2ex;
+    color: #555;
+    white-space: nowrap;
+}
