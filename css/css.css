@@ -19,9 +19,6 @@ h2 {
     font-size: 130%;
 }
 
-
-
-
 a {
     color: #37f;
 }
@@ -54,8 +51,7 @@ header {
     margin-bottom: 2ex;
 }
 
-main,
-footer {
+main {
     margin: 2ex 10ex;
     max-width: 80ex;
 }
