@@ -62,3 +62,7 @@ main {
     color: #555;
     white-space: nowrap;
 }
+.specialText{
+    display: inline;
+    font-family: WebKitBugWorkaround, monospace;
+}
